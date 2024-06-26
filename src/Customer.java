@@ -3,7 +3,6 @@ public class Customer extends Entity { ;
     private String first_name;
     private String last_name;
     private int age;
-    private double penalty;
 
     Customer(int id, String first_name, String last_name, int age){
         setId(id);
